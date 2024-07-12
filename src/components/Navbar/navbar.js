@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Eealogo from '../../images/eealogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF, faTwitter, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export class Navbar extends Component {
   constructor(props) {
