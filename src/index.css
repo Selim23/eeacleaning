@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fontSize{
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .background-image {
+    background-image: url('/src/images/foto1.jpg');
+    height: 400px; /* Hoogte van 400px voor mobiele apparaten */
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .background-image {
+    background-image: url('/src/images/foto1.jpg');
+    height: 650px; /* Hoogte van 650px voor apparaten groter dan 600px breedte */
+  }
+}
+
+.slick-next:before {
+  content: '→';
+  color: gray !important;
+}
+
+.slick-prev:before {
+  content: '←';
+  color: gray !important;
+}
+
+h1, button{
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li{
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
